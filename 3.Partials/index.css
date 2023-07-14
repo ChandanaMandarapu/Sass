@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: fixed;
+  width: 100%;
+  font-size: 1.5rem;
+}
+nav .logo-container {
+  margin-left: 40px;
+}
+nav ul {
+  margin-right: 40px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: #222;
+}
+nav a:hover {
+  border-bottom: 2px solid black;
+}
+
+main {
+  background-image: url("https://media.istockphoto.com/id/108126646/photo/egret-at-dusk.jpg?s=612x612&w=0&k=20&c=7FY6LQ65yjdf6v-1B76zJM65vI3Ii9AwDwtoE_lIxBQ=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main h1 {
+  font-size: 3rem;
+  color: azure;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main p {
+  max-width: 600px;
+  margin: 10px;
+}
+main .btn {
+  background: transparent;
+  border: none;
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.card {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-content {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  margin: 0 6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.card h1 {
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card p {
+  margin: 20px 0;
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+}
+.card a {
+  text-decoration: none;
+  background-color: #000000;
+  color: #fdf6f6;
+  padding: 10px 20px;
+}
+.card .card-img {
+  width: 400px;
+}
+
+.gallery {
+  margin-top: 6rem;
+}
+.gallery h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 5rem;
+}
+.gallery .imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery .gallery-img {
+  width: 300px;
+  margin: 20px;
+}/*# sourceMappingURL=index.css.map */

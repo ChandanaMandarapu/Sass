@@ -1,0 +1,32 @@
+// Main
+
+main{
+    background-image: url('https://media.istockphoto.com/id/108126646/photo/egret-at-dusk.jpg?s=612x612&w=0&k=20&c=7FY6LQ65yjdf6v-1B76zJM65vI3Ii9AwDwtoE_lIxBQ=');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1{
+        font-size: 3rem;
+        color: azure;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    p{
+        max-width: 600px;
+        margin: 10px;
+    }
+    .btn{
+        background: transparent;
+        border: none;
+        background-color: #222;
+        color: #fff;
+        padding: 10px 20px;
+    }
+}
