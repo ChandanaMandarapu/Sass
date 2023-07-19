@@ -15,7 +15,7 @@
 .card {
   width: 300px;
   padding: 20px;
-  background: linear-gradient(to bottom, #ec4bd2, rgba(235, 75, 208, 0.3647058824));
+  background: linear-gradient(to bottom, #f938d9, rgba(209, 41, 181, 0.3647058824));
   border-radius: 10px;
   color: #fff;
   margin: 10px;
@@ -54,9 +54,9 @@
 }
 
 .card-two {
-  background: linear-gradient(to bottom, #2cdb60, rgba(105, 197, 8, 0.3647058824));
+  background: linear-gradient(to bottom, #05ff50, rgba(84, 145, 18, 0.3647058824));
 }
 
 .card-three {
-  background: linear-gradient(to bottom, rgba(6, 13, 163, 0.3647058824), #4ba1ec);
+  background: linear-gradient(to bottom, rgba(19, 31, 255, 0.3647058824), #4aa9fc);
 }/*# sourceMappingURL=index.css.map */

@@ -18,7 +18,7 @@
   @mixin card-basic-styles {
     width: 300px;
     padding: 20px;
-    background: linear-gradient(to bottom, #ec4bd2, #eb4bd05d);
+    background: linear-gradient(to bottom, #f938d9, #d129b55d);
     border-radius: 10px;
     color: #fff;
   }
@@ -71,9 +71,9 @@
   }
   
   .card-two {
-    background: linear-gradient(to bottom, #2cdb60, #69c5085d);
+    background: linear-gradient(to bottom, #05ff50, #5491125d);
   }
   
   .card-three {
-    background: linear-gradient(to bottom, #060da35d, #4ba1ec);
+    background: linear-gradient(to bottom, #131fff5d, #4aa9fc);
   }
